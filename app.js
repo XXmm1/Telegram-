@@ -2,8 +2,8 @@ import TelegramBot from "node-telegram-bot-api";
 import axios from 'axios';
 import url from "url" //获取模块
 
-const  hefeng_key ='eab9afd48b9742f6a130f4ba3ed7b851'  //调用的API key
-const bot_token = '7180058636:AAH1q9rfMiGU8OUGSwbohbgzXv20Y3-NHqI'
+const  hefeng_key ='和风天气的Key'  //调用的API key
+const bot_token = 'telegram bot  token'    //换成自己机器人的Token令牌
 
 
 const bot=new TelegramBot(bot_token,{
